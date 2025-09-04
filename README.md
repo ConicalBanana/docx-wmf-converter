@@ -26,7 +26,7 @@ The fundamental issue is that `xelatex` or `pdflatex` could not render `EMF`/`WM
 
 ### Python
 
-3. BeautifulSoup [github-repo](https://github.com/expobrain/BeautifulSoup)
+3. BeautifulSoup [official-website](https://www.crummy.com/software/BeautifulSoup/)
 
 ## Installation
 
