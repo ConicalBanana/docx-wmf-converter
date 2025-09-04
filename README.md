@@ -16,18 +16,17 @@ ndingBox).
 
 The fundamental issue is that `xelatex` or `pdflatex` could not render `EMF`/`WMF` correctly (at least I cannot find a perfect solution). So this simple script would convert all the `EMF`/`WMF` images to `SVG` format and the output document could be converted to `PDF` format by [pandoc](https://pandoc.org)
 
-
 ## Dependencies
 
 ### Executable
 
 1. libwmf [github-repo](https://github.com/caolanm/libwmf)
 2. libemf2svg [github-repo](https://github.com/kakwa/libemf2svg)
-3. Python(Only tested on Python 3.12.9)
+3. Python>=3.12(If you want to use other python versions, please replace pathlib.Path.walk with os.path.walk)
 
 ### Python
 
-3. BeautifulSoup [official-website](https://www.crummy.com/software/BeautifulSoup/)
+See `requirements.txt`
 
 ## Installation
 
@@ -39,7 +38,7 @@ brew install libemf2svg
 
 # Your conda environment settings
 # ...
-pip install bs4
+pip install -r requirements.txt
 ```
 
 ### Linux

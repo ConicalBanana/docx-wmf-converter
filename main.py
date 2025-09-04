@@ -97,8 +97,8 @@ def replace_fig(
 
     # Repack
     current_dir = os.getcwd()
-    os.chdir(tmp_path)
     with zipfile.ZipFile(out, "w") as fo:
+        os.chdir(tmp_path)
         for dir_path, _, file_names in tmp_path.walk():
             for file_name in file_names:
                 item = dir_path / file_name
