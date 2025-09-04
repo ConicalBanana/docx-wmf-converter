@@ -46,6 +46,6 @@ pip install bs4
 
 To be completed...
 
-### Acknowledgements
+## Acknowledgements
 
 Thanks for the wonderful libraries `libwmf` and `linemf2svg` :)
