@@ -23,6 +23,7 @@ The fundamental issue is that `xelatex` or `pdflatex` could not render `EMF`/`WM
 
 1. libwmf [github-repo](https://github.com/caolanm/libwmf)
 2. libemf2svg [github-repo](https://github.com/kakwa/libemf2svg)
+3. Python(Only tested on Python 3.12.9)
 
 ### Python
 
